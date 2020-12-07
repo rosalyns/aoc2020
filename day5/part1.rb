@@ -1,5 +1,5 @@
-example_input = File.readlines('adv5-1-input.txt', chomp: true)
-input = File.readlines('adv5-1-input2.txt', chomp: true)
+example_input = File.readlines('input/example.txt', chomp: true)
+input = File.readlines('input/input.txt', chomp: true)
 
 def algorithm(input)
   max = 0

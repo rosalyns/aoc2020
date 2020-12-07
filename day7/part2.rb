@@ -1,5 +1,5 @@
-example_input = File.readlines('adv7-2-input.txt', chomp: true)
-input = File.readlines('adv7-input.txt', chomp: true)
+example_input = File.readlines('input/example2.txt', chomp: true)
+input = File.readlines('input/input.txt', chomp: true)
 
 def algorithm(input, find_bag)
   map = {}

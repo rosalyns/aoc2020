@@ -1,7 +1,7 @@
-example_input = File.readlines('adv4-input.txt', chomp: true)
-input = File.readlines('adv4-input2.txt', chomp: true)
-valid_input = File.readlines('adv4-2-valid-input.txt',chomp: true)
-invalid_input = File.readlines('adv4-2-invalid-input.txt', chomp: true)
+example_input = File.readlines('input/example.txt', chomp: true)
+input = File.readlines('input/input.txt', chomp: true)
+valid_input = File.readlines('input/valid.txt', chomp: true)
+invalid_input = File.readlines('input/invalid.txt', chomp: true)
 
 def algorithm(input)
   present_fields = []
