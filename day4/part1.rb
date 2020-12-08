@@ -1,7 +1,7 @@
-example_input = File.readlines('input/example.txt', chomp: true)
-input = File.readlines('input/input.txt', chomp: true)
-valid_input = File.readlines('input/valid.txt', chomp: true)
-invalid_input = File.readlines('input/invalid.txt', chomp: true)
+example_input = File.readlines('day4/input/example.txt', chomp: true)
+input = File.readlines('day4/input/input.txt', chomp: true)
+valid_input = File.readlines('day4/input/valid.txt', chomp: true)
+invalid_input = File.readlines('day4/input/invalid.txt', chomp: true)
 
 def algorithm(input)
   present_fields = []

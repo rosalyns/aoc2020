@@ -1,5 +1,5 @@
-example_input = File.readlines('input/example.txt', chomp: true)
-input = File.readlines('input/input.txt', chomp: true)
+example_input = File.readlines('day3/input/example.txt', chomp: true)
+input = File.readlines('day3/input/input.txt', chomp: true)
 
 slopes = [[1, 1], [3, 1], [5, 1], [7, 1], [1, 2]]
 

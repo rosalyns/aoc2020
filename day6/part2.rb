@@ -1,5 +1,5 @@
-example_input = File.readlines('input/example.txt', chomp: true)
-input = File.readlines('input/input.txt', chomp: true)
+example_input = File.readlines('day6/input/example.txt', chomp: true)
+input = File.readlines('day6/input/input.txt', chomp: true)
 
 def algorithm(input)
   sum = 0

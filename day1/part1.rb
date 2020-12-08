@@ -1,5 +1,5 @@
-example_input = File.readlines('input/example.txt', chomp: true)
-input = File.readlines('input/input.txt', chomp: true)
+example_input = File.readlines('day1/input/example.txt', chomp: true)
+input = File.readlines('day1/input/input.txt', chomp: true)
 
 def algorithm(input)
   input.each_with_index do |number, i|
