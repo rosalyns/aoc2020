@@ -2,7 +2,6 @@ example_input = File.read('input/example2.txt')
 input = File.read('input/input.txt')
 
 rules = {}
-
 data = input.split("\n\n")
 rules_string = data[0]
 rules_string.split("\n").each do |rule|
@@ -16,7 +15,6 @@ valid_tickets = tickets_string.split("\n").reject do |ticket|
 end
 
 places = {}
-
 valid_tickets.each do |ticket|
   numbers = ticket.split(',').map(&:to_i)
   numbers.each_with_index do |number, i|
@@ -37,3 +35,25 @@ places.each do |occurrence|
 end
 
 puts order_options
+
+# result by hand
+# {"departure location"=>[16],
+# "departure station"=>[3],
+# "departure platform"=>[11],
+# "departure track"=>[17],
+# "departure date"=>[4],
+# "departure time"=>[ 5],
+# "arrival station"=>[14],
+# "arrival track"=>[12],
+# "class"=>[19],
+# "price"=>[ 6],
+# "row"=>[ 2],
+# "wagon"=>[9],
+# "zone"=>[8],
+# "arrival location"=>[18],
+# "type"=>[15],
+# “duration"=>[1],
+# "arrival platform"=>[7],
+# "train"=>[0],
+# "seat"=>[10],
+# "route"=>[13]}
