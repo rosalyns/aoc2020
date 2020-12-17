@@ -52,7 +52,7 @@ puts order_options
 # "zone"=>[8],
 # "arrival location"=>[18],
 # "type"=>[15],
-# “duration"=>[1],
+# "duration"=>[1],
 # "arrival platform"=>[7],
 # "train"=>[0],
 # "seat"=>[10],

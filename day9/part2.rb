@@ -25,7 +25,7 @@ def xmas(code, pointer, preamble_size)
     @preamble.combination(2).each do |combi|
       if combi.sum == code[pointer].to_i
         sum_found = true
-        @preamble[pointer % preamble_size] =code[pointer].to_i
+        @preamble[pointer % preamble_size] = code[pointer].to_i
         break
       end
     end
